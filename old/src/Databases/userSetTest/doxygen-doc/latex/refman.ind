@@ -1,0 +1,64 @@
+\begin{theindex}
+
+  \item {displayMenu}
+    \subitem {main.cpp}, \hyperpage{6}
+  \item {displayUserDetails}
+    \subitem {main.cpp}, \hyperpage{7}
+  \item {displayUserList}
+    \subitem {main.cpp}, \hyperpage{8}
+
+  \indexspace
+
+  \item {getMenuChoice}
+    \subitem {main.cpp}, \hyperpage{9}
+
+  \indexspace
+
+  \item {main}
+    \subitem {main.cpp}, \hyperpage{10}
+  \item {main.cpp}, \hyperpage{5}
+    \subitem {displayMenu}, \hyperpage{6}
+    \subitem {displayUserDetails}, \hyperpage{7}
+    \subitem {displayUserList}, \hyperpage{8}
+    \subitem {getMenuChoice}, \hyperpage{9}
+    \subitem {main}, \hyperpage{10}
+    \subitem {pauseExecution}, \hyperpage{12}
+    \subitem {testAddUser}, \hyperpage{13}
+    \subitem {testBadAllocException}, \hyperpage{14}
+    \subitem {testClearFile}, \hyperpage{15}
+    \subitem {testLogin}, \hyperpage{16}
+    \subitem {testPasswordChange}, \hyperpage{17}
+    \subitem {testRandomAccess}, \hyperpage{19}
+    \subitem {testRemoveUser}, \hyperpage{20}
+    \subitem {testUpdateUser}, \hyperpage{21}
+  \item {mainpage.dox}, \hyperpage{30}
+
+  \indexspace
+
+  \item {pauseExecution}
+    \subitem {main.cpp}, \hyperpage{12}
+
+  \indexspace
+
+  \item {testAddUser}
+    \subitem {main.cpp}, \hyperpage{13}
+  \item {testBadAllocException}
+    \subitem {main.cpp}, \hyperpage{14}
+  \item {testClearFile}
+    \subitem {main.cpp}, \hyperpage{15}
+  \item {testLogin}
+    \subitem {main.cpp}, \hyperpage{16}
+  \item {testPasswordChange}
+    \subitem {main.cpp}, \hyperpage{17}
+  \item {testRandomAccess}
+    \subitem {main.cpp}, \hyperpage{19}
+  \item {testRemoveUser}
+    \subitem {main.cpp}, \hyperpage{20}
+  \item {testUpdateUser}
+    \subitem {main.cpp}, \hyperpage{21}
+
+  \indexspace
+
+  \item {User Database Management System}, \hyperpage{1}
+
+\end{theindex}

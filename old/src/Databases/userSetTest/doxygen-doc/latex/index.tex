@@ -1,0 +1,58 @@
+\chapter{User Database Management System}
+\hypertarget{index}{}\label{index}\index{User Database Management System@{User Database Management System}}
+\hypertarget{index_intro_sec}{}\doxysection{\texorpdfstring{Introduction}{Introduction}}\label{index_intro_sec}
+The User Database Management System is a C++ application that demonstrates fundamental database operations, user authentication, and exception handling. This project is designed to showcase proper software engineering practices including object-\/oriented design, error handling, and documentation.\hypertarget{index_features_sec}{}\doxysection{\texorpdfstring{Key Features}{Key Features}}\label{index_features_sec}
+
+\begin{DoxyItemize}
+\item {\bfseries{User Management}}\+: Create, read, update, and delete (CRUD) operations
+\item {\bfseries{Authentication}}\+: Secure login process with role-\/based access control
+\item {\bfseries{Persistence}}\+: Binary file storage with random access capabilities
+\item {\bfseries{Exception Handling}}\+: Custom exception classes with informative error messages
+\item {\bfseries{Role-\/\+Based Access Control}}\+: Different permissions for Admin and Employee users
+\end{DoxyItemize}\hypertarget{index_components_sec}{}\doxysection{\texorpdfstring{Main Components}{Main Components}}\label{index_components_sec}
+The system consists of several key components\+:
+\begin{DoxyItemize}
+\item {\bfseries{User Classes}}\+: Base User class with Admin and Employee derived classes
+\item {\bfseries{User\+Database}}\+: Core class managing user storage and retrieval
+\item {\bfseries{User\+Factory}}\+: Factory pattern implementation for creating and deserializing users
+\item {\bfseries{Exception Classes}}\+: Custom exception hierarchy for robust error handling
+\end{DoxyItemize}\hypertarget{index_testing_sec}{}\doxysection{\texorpdfstring{Testing Interface}{Testing Interface}}\label{index_testing_sec}
+The application provides a comprehensive testing interface through \doxylink{main_8cpp}{main.\+cpp} that allows\+:
+\begin{DoxyItemize}
+\item Adding, updating, and removing users
+\item Testing user authentication
+\item Changing passwords with proper authorization
+\item Clearing the database (with Administrator privileges)
+\item Testing random access to binary database records
+\item Demonstrating exception handling capabilities
+\end{DoxyItemize}\hypertarget{index_usage_sec}{}\doxysection{\texorpdfstring{Basic Usage}{Basic Usage}}\label{index_usage_sec}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\textcolor{comment}{//\ Create\ a\ UserDatabase\ instance}}
+\DoxyCodeLine{UserDatabase\ db(\textcolor{stringliteral}{"{}users"{}});}
+\DoxyCodeLine{}
+\DoxyCodeLine{\textcolor{comment}{//\ Add\ a\ new\ admin\ user}}
+\DoxyCodeLine{Admin*\ admin\ =\ \textcolor{keyword}{new}\ Admin(10000,\ \textcolor{stringliteral}{"{}A12345678"{}},\ \textcolor{stringliteral}{"{}password"{}},\ User::ADMIN);}
+\DoxyCodeLine{db.addUser(admin);}
+\DoxyCodeLine{}
+\DoxyCodeLine{\textcolor{comment}{//\ Authenticate\ a\ user}}
+\DoxyCodeLine{User*\ user\ =\ db.login(10000,\ \textcolor{stringliteral}{"{}A12345678"{}},\ \textcolor{stringliteral}{"{}password"{}});}
+\DoxyCodeLine{\textcolor{keywordflow}{if}\ (user)\ \{}
+\DoxyCodeLine{\ \ \ \ cout\ <<\ \textcolor{stringliteral}{"{}Login\ successful!"{}}\ <<\ endl;}
+\DoxyCodeLine{\}}
+
+\end{DoxyCode}
+\hypertarget{index_requirements_sec}{}\doxysection{\texorpdfstring{Requirements}{Requirements}}\label{index_requirements_sec}
+
+\begin{DoxyItemize}
+\item C++11 compliant compiler
+\item Standard C++ libraries
+\item Doxygen (for generating documentation)
+\end{DoxyItemize}
+
+\begin{DoxyAuthor}{Author}
+Carlos Nebril 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+April 25, 2025 
+\end{DoxyDate}

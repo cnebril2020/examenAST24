@@ -1,0 +1,16 @@
+<map id="displayUserDetails" name="displayUserDetails">
+<area shape="rect" id="Node000001" title=" " alt="" coords="287,80,432,105"/>
+<area shape="rect" id="Node000002" href="$main_8cpp.html#aec92b3b4f77ae000120a3e30300a1629" title=" " alt="" coords="122,5,225,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="315,77,238,44,208,33,210,28,240,40,317,72"/>
+<area shape="rect" id="Node000004" href="$main_8cpp.html#a78769662a640a3ea3888b98e7f796e41" title=" " alt="" coords="132,55,215,80"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="273,84,215,76,215,70,274,78"/>
+<area shape="rect" id="Node000005" href="$main_8cpp.html#aa337dbbf3d35bee99a64dabe2bbf7010" title="Test function for removing users from the database." alt="" coords="108,104,239,129"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="274,106,239,111,239,106,273,101"/>
+<area shape="rect" id="Node000006" href="$main_8cpp.html#ad8c2f8687c9ce381f10c5f0f1881331e" title=" " alt="" coords="111,153,235,179"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="315,113,240,143,208,156,206,151,238,138,313,108"/>
+<area shape="rect" id="Node000003" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,80,60,105"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="122,38,109,44,52,82,49,78,107,40,120,33"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="119,80,61,90,60,85,118,75"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="94,106,60,100,61,95,95,101"/>
+<area shape="poly" id="edge8_Node000006_Node000003" title=" " alt="" coords="123,151,107,143,50,108,53,103,109,138,125,146"/>
+</map>

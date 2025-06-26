@@ -1,0 +1,56 @@
+/**
+ * @mainpage User Database Management System
+ *
+ * @section intro_sec Introduction
+ * The User Database Management System is a C++ application that demonstrates
+ * fundamental database operations, user authentication, and exception handling.
+ * This project is designed to showcase proper software engineering practices
+ * including object-oriented design, error handling, and documentation.
+ *
+ * @section features_sec Key Features
+ * - **User Management**: Create, read, update, and delete (CRUD) operations
+ * - **Authentication**: Secure login process with role-based access control
+ * - **Persistence**: Binary file storage with random access capabilities
+ * - **Exception Handling**: Custom exception classes with informative error messages
+ * - **Role-Based Access Control**: Different permissions for Admin and Employee users
+ *
+ * @section components_sec Main Components
+ * The system consists of several key components:
+ * - **User Classes**: Base User class with Admin and Employee derived classes
+ * - **UserDatabase**: Core class managing user storage and retrieval
+ * - **UserFactory**: Factory pattern implementation for creating and deserializing users
+ * - **Exception Classes**: Custom exception hierarchy for robust error handling
+ *
+ * @section testing_sec Testing Interface
+ * The application provides a comprehensive testing interface through main.cpp that allows:
+ * - Adding, updating, and removing users
+ * - Testing user authentication
+ * - Changing passwords with proper authorization
+ * - Clearing the database (with Administrator privileges)
+ * - Testing random access to binary database records
+ * - Demonstrating exception handling capabilities
+ *
+ * @section usage_sec Basic Usage
+ * ```cpp
+ * // Create a UserDatabase instance
+ * UserDatabase db("users");
+ * 
+ * // Add a new admin user
+ * Admin* admin = new Admin(10000, "A12345678", "password", User::ADMIN);
+ * db.addUser(admin);
+ * 
+ * // Authenticate a user
+ * User* user = db.login(10000, "A12345678", "password");
+ * if (user) {
+ *     cout << "Login successful!" << endl;
+ * }
+ * ```
+ *
+ * @section requirements_sec Requirements
+ * - C++11 compliant compiler
+ * - Standard C++ libraries
+ * - Doxygen (for generating documentation)
+ *
+ * @author Carlos Nebril
+ * @date April 25, 2025
+ */
